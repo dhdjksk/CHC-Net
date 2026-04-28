@@ -38,7 +38,7 @@ ultralytics/nn/our_modules/
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yue-02/CHC-YOLO.git
+git clone https://github.com/yue-2002/CHC-YOLO.git
 cd CHC-YOLO
 ```
 
