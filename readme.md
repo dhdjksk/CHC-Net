@@ -89,7 +89,7 @@ Quantitative comparisons on the VisDrone dataset:
 | Model | mAP | AP50 | AP75 | APS (Small) | APM (Medium) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | Baseline (PANet) | 34.1 | 54.4 | 35.5 | 25.3 | 46.1 |
-| **CHC-YOLO (Ours)** | **38.5** | **60.3** | **41.1** | **29.9** | **50.0** |
+| **CHC-Net (Ours)** | **38.5** | **60.3** | **41.1** | **29.9** | **50.0** |
 
 ---
 
@@ -98,10 +98,10 @@ Quantitative comparisons on the VisDrone dataset:
 If you find this project useful for your research, please consider citing our paper:
 
 ```bibtex
-@article{chcyolo2026,
-  title={Cross-scale Hierarchical Context-aware YOLO for Small Object Detection in UAV Images},
+@article{chcnet2026,
+  title={Cross-scale Hierarchical Context-aware Net for Small Object Detection in UAV Images},
   author={Yang, Feng and Wang, Ziqian and Chen, Tao and Qin, Anyong and Liu, Yin and Zhao, Yue and Song, Tiecheng and Luo, Fulin},
-  journal={Pattern Recognition},
+  journal={ESWA},
   year={2026}
 }
 ```
