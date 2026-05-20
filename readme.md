@@ -1,4 +1,4 @@
-# CHC-YOLO: Cross-scale Hierarchical Context-aware YOLO for Small Object Detection in UAV Images
+# CHCNet: Cross-scale Hierarchical Context-aware YOLO for Small Object Detection in UAV Images
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.10+-ee4c2c.svg)](https://pytorch.org/)
@@ -7,7 +7,7 @@
 This is the official PyTorch implementation of the paper **"Cross-scale Hierarchical Context-aware YOLO for Small Object Detection in UAV Images"**.
 
 ## 📖 Introduction
-Detecting small objects in Unmanned Aerial Vehicle (UAV) images remains a major bottleneck due to the inadequate preservation of fine-grained details and limited cross-layer semantic integration. To address these challenges, we propose **CHC-YOLO**. 
+Detecting small objects in Unmanned Aerial Vehicle (UAV) images remains a major bottleneck due to the inadequate preservation of fine-grained details and limited cross-layer semantic integration. To address these challenges, we propose **CHCNet**. 
 
 ### ✨ Highlights
 * **CSPP (Cross Stage Partial Pyramid)**: Decouples shallow details and deep semantics to strengthen multi-scale feature modeling.
@@ -38,8 +38,8 @@ ultralytics/nn/our_modules/
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yue-2002/CHC-YOLO.git
-cd CHC-YOLO
+git clone https://github.com/yue-2002/CHCNet.git
+cd CHCNet
 ```
 
 2. Create a virtual environment and install the required dependencies:
@@ -58,13 +58,13 @@ pip install -r requirements.txt
 Please download the [VisDrone](https://github.com/VisDrone/VisDrone-Dataset) or [UAVDT](https://sites.google.com/site/daviddo0323/projects/uavdt) datasets and place them in the `datasets/` folder. Ensure the data format follows the standard YOLO format.
 
 ### 2. Training the Model
-We provide a unified training script `train.py`. To train CHC-YOLO on the VisDrone dataset, simply run the following command in your terminal:
+We provide a unified training script `train.py`. To train CHCNet on the VisDrone dataset, simply run the following command in your terminal:
 
 ```bash
 # Standard training command
-python train.py --model ultralytics/cfg/models/chc-yolo.yaml --data datasets/VisDrone.yaml --epochs 300 --batch-size 2 --device 0
+python train.py --model ultralytics/cfg/models/CHCNet.yaml --data datasets/VisDrone.yaml --epochs 300 --batch-size 2 --device 0
 ```
-* **`--model`**: Path to the CHC-YOLO architecture config file.
+* **`--model`**: Path to the CHCNet architecture config file.
 * **`--data`**: Path to the dataset config file.
 * **`--batch-size`**: Set to 2 (as described in the paper implementation details).
 * **`--device`**: GPU ID (e.g., `0` for single GPU, `0,1` for multi-GPU).
