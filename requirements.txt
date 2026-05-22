@@ -37,7 +37,7 @@ kiwisolver==1.4.7
 Markdown==3.7
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
-matplotlib==3.7.5
+matplotlib==3.9.4
 mdurl==0.1.2
 mmcv==2.2.0
 mmengine==0.10.5
