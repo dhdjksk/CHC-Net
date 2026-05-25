@@ -4,7 +4,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.10+-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This is the official PyTorch implementation of the paper **"Cross-scale Hierarchical Context-aware YOLO for Small Object Detection in UAV Images"**.
+This is the official PyTorch implementation of the paper **"Cross-scale Hierarchical Context-aware Network for Small Object Detection in UAV Images"**.
 
 ## 📖 Introduction
 Detecting small objects in Unmanned Aerial Vehicle (UAV) images remains a major bottleneck due to the inadequate preservation of fine-grained details and limited cross-layer semantic integration. To address these challenges, we propose **CHCNet**. 
