@@ -1,4 +1,4 @@
-# CHCNet: Cross-scale Hierarchical Context-aware YOLO for Small Object Detection in UAV Images
+# CHCNet: Cross-scale Hierarchical Context-aware Network for Small Object Detection in UAV Images
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.10+-ee4c2c.svg)](https://pytorch.org/)
