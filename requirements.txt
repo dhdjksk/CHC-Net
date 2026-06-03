@@ -23,7 +23,7 @@ gitdb==4.0.12
 GitPython==3.1.46
 google-auth==2.35.0
 google-auth-oauthlib==1.0.0
-grad-cam==1.5.4
+grad-cam==1.5.5
 grpcio==1.67.1
 huggingface-hub==0.26.2
 idna==3.10
